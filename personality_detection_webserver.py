@@ -121,6 +121,7 @@ def getmatches(name):
     matches = []
     for metric in metrics:
         temp = userdata[metric["name"]]
+        temp["name"] = metric["name"]
         temp["compatibility"] = metric["distance"]
         matches.append(userdata[metric["name"]])
     return json.dumps(matches)
