@@ -1,1 +1,1 @@
-web: gunicorn app:personality_detection_webserver
+web: gunicorn personality_detection_webserver:app
