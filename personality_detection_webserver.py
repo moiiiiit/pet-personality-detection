@@ -87,15 +87,9 @@ def findMatches(name):
     return(metrics)
 
 
-@app.route('/woof/<string:name>/', methods=['GET'])
-def welcome(name):
-    namex = ""
-    for w in name.split():
-        namex = namex + w[:1].upper() + w[1:] + " "
-    namex = namex[:-1]
-    for attribute in userdata:
-        calculatePersonalities(attribute)
-    return ("Woof Woof " + namex)
+@app.route('/', methods=['GET'])
+def welcome():
+    return ("<h1> Woof Woof: This is a backend webserver(only). Go to - <a href=\"https://mydogatemydatingprofile.web.app\">Web app</a> for the web application.</h1>")
 
 
 @app.route('/getuser/<string:name>/', methods=['GET'])
