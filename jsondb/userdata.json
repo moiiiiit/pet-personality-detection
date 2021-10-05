@@ -1,1 +1,154 @@
-{"mohit bhole": {"dob": "8/20/1999, 12:00:00 AM", "gender": "Male", "interested_in": "No Preference", "desired_matching_similarity": 4, "desired_connection": "platonic", "pet_data": {"type": "cat", "essay": "We cuddle in the bathtub, Not with the water obviously, because cats and water is definitely not a fun thing, but sometimes he'll jump in the tub, and i'll scoot in beside him and we'll just lay there, him on my chest, and have some time together. And it's our time. And it sounds so weird writing that, because actually it is weird, but we'll still keep doing it.", "adjectives": "cuddly, loving, caring, curious, lively, confident, talkative, food, motivated, personable", "fear": 0.0, "anger": 0.0, "anticipation": "", "trust": 0.3, "surprise": 0.0, "positive": 0.4, "negative": 0.0, "sadness": 0.0, "disgust": 0.0, "joy": 0.3, "anticip": 0.0}, "openness": 1, "conscientiousness": 0, "extraversion": 1, "agreeableness": 0, "neuroticism": 1}, "Andria McIntyre": {"dob": "3/15/2000, 12:00:00 AM", "gender": "Female", "interested_in": ["Male, Female"], "desired_matching_similarity": 4, "desired_connection": "platonic", "pet_data": {"type": "cat", "essay": "Yes really. I love when I'm dozing off to sleep, and he thumps onto the bed, and wants to get under the covers for a little snuggle. Those precious moments can't be disrupted with - whatever time of night.", "adjectives": "cuddly, loving, caring, curious, lively, confident, talkative, food, motivated, personable", "fear": 0.0, "anger": 0.0, "anticipation": "", "trust": 0.3, "surprise": 0.0, "positive": 0.4, "negative": 0.0, "sadness": 0.0, "disgust": 0.0, "joy": 0.3, "anticip": 0.0}, "openness": 1, "conscientiousness": 0, "extraversion": 1, "agreeableness": 0, "neuroticism": 1}}
+{
+    "Mohit Bhole":{
+       "dob":"8/20/1999, 12:00:00 AM",
+       "gender":"Male",
+       "interested_in":"No Preference",
+       "desired_matching_similarity":4,
+       "desired_connection":"platonic",
+       "pet_data":{
+          "type":"cat",
+          "essay":"We cuddle in the bathtub, Not with the water obviously, because cats and water is definitely not a fun thing, but sometimes he'll jump in the tub, and i'll scoot in beside him and we'll just lay there, him on my chest, and have some time together. And it's our time. And it sounds so weird writing that, because actually it is weird, but we'll still keep doing it.",
+          "adjectives":"cuddly, loving, caring, curious, lively, confident, talkative, food, motivated, personable",
+          "fear":0.0,
+          "anger":0.0,
+          "anticipation":"",
+          "trust":0.3,
+          "surprise":0.0,
+          "positive":0.4,
+          "negative":0.0,
+          "sadness":0.0,
+          "disgust":0.0,
+          "joy":0.3,
+          "anticip":0.0
+       },
+       "openness":1,
+       "conscientiousness":0,
+       "extraversion":1,
+       "agreeableness":0,
+       "neuroticism":1
+    },
+    "Andria McIntyre":{
+       "dob":"3/15/2000, 12:00:00 AM",
+       "gender":"Female",
+       "interested_in":[
+          "Male, Female"
+       ],
+       "desired_matching_similarity":4,
+       "desired_connection":"platonic",
+       "pet_data":{
+          "type":"cat",
+          "essay":"Yes really. I love when I'm dozing off to sleep, and he thumps onto the bed, and wants to get under the covers for a little snuggle. Those precious moments can't be disrupted with - whatever time of night.",
+          "adjectives":"cuddly, loving, caring, curious, lively, confident, talkative, food, motivated, personable",
+          "fear":0.0,
+          "anger":0.0,
+          "anticipation":"",
+          "trust":0.3,
+          "surprise":0.0,
+          "positive":0.4,
+          "negative":0.0,
+          "sadness":0.0,
+          "disgust":0.0,
+          "joy":0.3,
+          "anticip":0.0
+       },
+       "openness":1,
+       "conscientiousness":0,
+       "extraversion":1,
+       "agreeableness":0,
+       "neuroticism":1,
+       "name":"Andria McIntyre",
+       "compatibility":0.9795404589718286
+    },
+    "Jacob Hill":{
+       "dob":"3/15/2001, 12:00:00 AM",
+       "gender":"Male",
+       "interested_in":[
+          "Male, Female"
+       ],
+       "desired_matching_similarity":4,
+       "desired_connection":"platonic",
+       "pet_data":{
+          "type":"dog",
+          "essay":"It is important to note that each of the five personality factors represents a range between two extremes. For example, extraversion represents a continuum between extreme extraversion and extreme introversion. In the real world, most people lie somewhere in between the two polar ends of each dimension. These five categories are usually described as follows.",
+          "adjectives":"skiddish, loving, apathetic, lively, timid, quiet, food, unmotivated, distant",
+          "fear":0.07692307692307693,
+          "anger":0.0,
+          "anticipation":"",
+          "trust":0.15384615384615385,
+          "surprise":0.0,
+          "positive":0.23076923076923078,
+          "negative":0.15384615384615385,
+          "sadness":0.23076923076923078,
+          "disgust":0.0,
+          "joy":0.15384615384615385,
+          "anticip":0.0
+       },
+       "openness":1,
+       "conscientiousness":0,
+       "extraversion":1,
+       "agreeableness":0,
+       "neuroticism":1,
+       "name":"jacob hill",
+       "compatibility":0.8784053065269117
+    },
+    "Liora Davey":{
+       "dob":"3/17/2001, 12:00:00 AM",
+       "gender":"Female",
+       "interested_in":[
+          "Male, Female"
+       ],
+       "desired_matching_similarity":3,
+       "desired_connection":"platonic",
+       "pet_data":{
+          "type":"cat",
+          "essay":"I would describe my cat Lucy as extremely beautiful. She has lovely, long smoke-colored fur with a white patch. Her fur is like silk. Her eyes are jewel green \u2014 they shine like peridots. She is loving and affectionate but is very much \u201cher own cat\u201d. She loves her brother Mischa but often picks fights with him, even though she is significantly smaller. Mischa is like lightning, therefore no pictures of him as yet.",
+          "adjectives":"cuddly, loving, curious, lively, timid, hide, food, motivated, impersonable",
+          "fear":0.2,
+          "anger":0.0,
+          "anticipation":"",
+          "trust":0.2,
+          "surprise":0.0,
+          "positive":0.2,
+          "negative":0.1,
+          "sadness":0.1,
+          "disgust":0.0,
+          "joy":0.2,
+          "anticip":0.0
+       },
+       "openness":1,
+       "conscientiousness":0,
+       "extraversion":1,
+       "agreeableness":1,
+       "neuroticism":1,
+       "name":"liora davey",
+       "compatibility":0.888442260399613
+    },
+    "Jonathan Smith":{
+       "dob":"9/17/1998, 12:00:00 AM",
+       "gender":"Male",
+       "interested_in":"No Preference",
+       "desired_matching_similarity":3,
+       "desired_connection":"platonic",
+       "pet_data":{
+          "type":"dog",
+          "essay":"my dog's name is Janet. She is like the fat secretary in a cubicle farm who comes around to every cubicle and whispers excitedly, there's cake! [in the breakroom By the time you get around to making it to the break room for said cake, Janet has most definitely eaten it all.",
+          "adjectives":"cuddly, loving, playful, lively, energetic, hype, happy, motivated, friendly",
+          "fear":0.0,
+          "anger":0.05263157894736842,
+          "anticipation":"",
+          "trust":0.21052631578947367,
+          "surprise":0.05263157894736842,
+          "positive":0.2631578947368421,
+          "negative":0.05263157894736842,
+          "sadness":0.0,
+          "disgust":0.0,
+          "joy":0.21052631578947367,
+          "anticip":0.0
+       },
+       "openness":1,
+       "conscientiousness":0,
+       "extraversion":1,
+       "agreeableness":0,
+       "neuroticism":1
+    }
+ }

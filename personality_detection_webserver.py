@@ -75,6 +75,7 @@ def calculateDistances(name1, name2):
     )/math.sqrt(10)/5
     return(distance1+distance2)
 
+
 def findMatches(name):
     metrics = []
     for attribute in userdata:
@@ -82,30 +83,39 @@ def findMatches(name):
             continue
         dist = calculateDistances(name, attribute)
         metrics.append({"name": attribute, "distance": dist})
-    metrics.sort(key= lambda x: x["distance"])
+    metrics.sort(key=lambda x: x["distance"])
     return(metrics)
-    
+
 
 @app.route('/woof/<string:name>/', methods=['GET'])
 def welcome(name):
-    name = name.lower()
+    namex = ""
+    for w in name.split():
+        namex = namex + w[:1].upper() + w[1:] + " "
+    namex = namex[:-1]
     for attribute in userdata:
         calculatePersonalities(attribute)
-    return ("Woof Woof " + name)
+    return ("Woof Woof " + namex)
 
 
 @app.route('/getuser/<string:name>/', methods=['GET'])
 def getuser(name):
-    name = name.lower()
-    return json.dumps(userdata[name])
+    namex = ""
+    for w in name.split():
+        namex = namex + w[:1].upper() + w[1:] + " "
+    namex = namex[:-1]
+    return json.dumps(userdata[namex])
 
 
 @app.route('/setuser/<string:name>/', methods=['POST'])
 def postuser(name):
-    name = name.lower()
+    namex = ""
+    for w in name.split():
+        namex = namex + w[:1].upper() + w[1:] + " "
+    namex = namex[:-1]
     requestdata = request.json
-    userdata[name] = requestdata
-    calculatePersonalities(name)
+    userdata[namex] = requestdata
+    calculatePersonalities(namex)
     return "User creation successfull"
 
 
@@ -116,8 +126,11 @@ def getprofiles():
 
 @app.route('/getmatches/<string:name>/', methods=['GET'])
 def getmatches(name):
-    name = name.lower()
-    metrics = findMatches(name)
+    namex = ""
+    for w in name.split():
+        namex = namex + w[:1].upper() + w[1:] + " "
+    namex = namex[:-1]
+    metrics = findMatches(namex)
     matches = []
     for metric in metrics:
         temp = userdata[metric["name"]]
@@ -128,4 +141,4 @@ def getmatches(name):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=105)
+    app.run()
